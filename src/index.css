@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* El contenedor de Leaflet debe tener altura explícita */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Canvas de partículas superpuesto al mapa */
+.particle-flow-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 450;
+}

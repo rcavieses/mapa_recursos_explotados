@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "title": "Atlas de Flujos de Recursos Coloniales",
+    "version": "1.0-research",
+    "date": "2026-06-16",
+    "researcher": "Investigación compilada de fuentes académicas abiertas",
+    "note": "Este dataset integra cifras cuantitativas revisadas por pares con niveles de confianza explícitos. Las unidades varían según disponibilidad de datos.",
+    "confidence_scale": "1=especulativo; 2=rango amplio; 3=bien documentado pero con variancia; 4=series consistentes; 5=datos de referencia internacional"
+  },
+  "flows": [
+    {
+      "id": "s1",
+      "resource": "silver",
+      "resource_label": "Plata",
+      "power": "spain",
+      "origin_name": "Potosí, Bolivia",
+      "origin_lat": -19.58,
+      "origin_lon": -65.75,
+      "destination": "España",
+      "year_start": 1545,
+      "year_end": 1810,
+      "intensity": 3,
+      "quantity": {
+        "value": 45000,
+        "unit": "toneladas",
+        "period": "estimado total siglos XVI-XVIII",
+        "note": "Estimación de divulgación; TePaske & Brown proporcionan series distrito-por-distrito año por año"
+      },
+      "confidence": 4,
+      "sources": [
+        "TePaske, J.J. (2010). A New World of Gold and Silver. Ed. Kendall W. Brown. Brill, Leiden.",
+        "Hamilton, E.J. (1934). American Treasure and the Price Revolution in Spain. Harvard University Press."
+      ],
+      "notes": "Maior yacimiento de plata del mundo colonial. Extraído mediante la mita (trabajo forzado indígena). Series anuales y por distrito en TePaske (pp. registros fiscales de cajas reales).",
+      "description": "El mayor yacimiento de plata del mundo. Financió el Imperio Español durante dos siglos. Se estiman 45.000 toneladas extraídas mediante trabajo forzado indígena (mita). Millones murieron en las minas."
+    },
+    {
+      "id": "s2",
+      "resource": "silver",
+      "resource_label": "Plata",
+      "power": "spain",
+      "origin_name": "Zacatecas, México",
+      "origin_lat": 22.77,
+      "origin_lon": -102.77,
+      "destination": "España",
+      "year_start": 1546,
+      "year_end": 1821,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "siglos XVI-XIX",
+        "note": "Series en TePaske; Guanajuato y Zacatecas fueron segundo y tercer mayores productores globales"
+      },
+      "confidence": 4,
+      "sources": [
+        "TePaske, J.J. (2010). A New World of Gold and Silver."
+      ],
+      "notes": "Segundo mayor productor de plata mundial después de Potosí. Las minas de Zacatecas y Guanajuato sostuvieron la economía novohispana.",
+      "description": "Segundo mayor productor de plata mundial. Las minas de Zacatecas y Guanajuato sostuvieron la economía novohispana durante tres siglos."
+    },
+    {
+      "id": "b6",
+      "resource": "slaves",
+      "resource_label": "Tráfico de personas",
+      "power": "britain",
+      "origin_name": "Costa de Oro, Ghana",
+      "origin_lat": 5.5,
+      "origin_lon": -2.5,
+      "destination": "Gran Bretaña (reexporto a Américas)",
+      "year_start": 1640,
+      "year_end": 1807,
+      "intensity": 3,
+      "quantity": {
+        "value": 3259441,
+        "unit": "personas",
+        "period": "total registrado 1501-1867",
+        "note": "SlaveVoyages database: Gran Bretaña transportó este total; cifra para período 1640-1807 en subset del dataset"
+      },
+      "confidence": 5,
+      "sources": [
+        "Eltis, D. & Richardson, D. (2010). Atlas of the Transatlantic Slave Trade. Yale University Press.",
+        "SlaveVoyages Database (Voyages), alojado en University of California, Zenodo. DOI 10.5281/zenodo.1119592",
+        "Dedinger, B. & Girard, P. (2017). Exploring trade globalization in the long run: The RICardo project. Historical Methods, 50(1), 30–48."
+      ],
+      "notes": "Gran Bretaña fue el mayor traficante de personas. La cifra total es 3.259.441 personas embarcadas (1501-1867). El período 1640-1807 es subset. Estimación global SlaveVoyages: ~12,5 millones embarcadas, ~10,7 millones desembarcadas; ~1,8 millones muertes en travesía.",
+      "description": "Gran Bretaña fue el mayor traficante de personas. Transportó 3,26 millones a las Américas entre 1501–1867. Prohibió el tráfico en 1807, pero la esclavitud continuó hasta 1833."
+    },
+    {
+      "id": "p4",
+      "resource": "slaves",
+      "resource_label": "Tráfico de personas",
+      "power": "portugal",
+      "origin_name": "Benín, África Occidental",
+      "origin_lat": 6.4,
+      "origin_lon": 3.4,
+      "destination": "Portugal (reexporto a Brasil principalmente)",
+      "year_start": 1444,
+      "year_end": 1888,
+      "intensity": 3,
+      "quantity": {
+        "value": 5848266,
+        "unit": "personas",
+        "period": "total registrado 1501-1867",
+        "note": "SlaveVoyages: Portugal transportó este total; el mayor traficante individual"
+      },
+      "confidence": 5,
+      "sources": [
+        "SlaveVoyages Database / Hutchins Center, Harvard University",
+        "Eltis & Richardson (2010)"
+      ],
+      "notes": "Portugal inició el comercio transatlántico de personas esclavizadas en 1444 (antes del registro en bases cuantitativas). SlaveVoyages contabiliza 5.848.266 personas transportadas por Portugal 1501-1867. Se calcula que más de 5 millones de africanos fueron trasladados.",
+      "description": "Portugal inició el comercio transatlántico de personas esclavizadas en 1444. Se calcula que transportó más de 5 millones de africanos (cifra verificada: 5.848.266 en SlaveVoyages 1501–1867)."
+    },
+    {
+      "id": "p3",
+      "resource": "sugar",
+      "resource_label": "Azúcar",
+      "power": "portugal",
+      "origin_name": "Bahía, Brasil",
+      "origin_lat": -12.97,
+      "origin_lon": -38.5,
+      "destination": "Portugal (Europa)",
+      "year_start": 1530,
+      "year_end": 1888,
+      "intensity": 3,
+      "quantity": {
+        "value": 18500,
+        "unit": "toneladas",
+        "period": "c. 1689",
+        "note": "~528 engenhos producían ~1.295.000 arrobas (~18.500 tons) hacia fin s. XVII"
+      },
+      "confidence": 4,
+      "sources": [
+        "Schwartz, S.B. (2005). Artículo de síntesis. Revista de Indias, LXV(233), 79–116.",
+        "Bosma, U. (2023). The World of Sugar. Harvard University Press.",
+        "Antonil/Andreoni (1689, priest). Report on Brazilian sugar production."
+      ],
+      "notes": "Brasil fue el mayor productor mundial de azúcar en s. XVII. Hacia 1630 ~350 engenhos producían 10.000–15.000 t/año. Hacia 1689: ~528 engenhos, ~18.500 t/año. Esclavitud sostuvo la industria hasta 1888 (última abolición en América).",
+      "description": "Brasil fue el mayor productor mundial de azúcar en el s. XVII. La esclavitud lo sostuvo hasta 1888, la última abolición en América."
+    },
+    {
+      "id": "f1",
+      "resource": "sugar",
+      "resource_label": "Azúcar",
+      "power": "france",
+      "origin_name": "Saint-Domingue, Haití",
+      "origin_lat": 18.9,
+      "origin_lon": -72.3,
+      "destination": "Francia",
+      "year_start": 1697,
+      "year_end": 1804,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "s. XVIII",
+        "note": "Producía ~40% del azúcar europeo y ~60% del café europeo; cifras en valor no en volumen físico"
+      },
+      "confidence": 3,
+      "sources": [
+        "Bosma (2023)",
+        "Literatura general sobre la colonia de Saint-Domingue"
+      ],
+      "notes": "Saint-Domingue fue la colonia más lucrativa del mundo 1697–1804. Producía desproporcionadamente (40% azúcar, 60% café de Europa). Sostenida por ~500.000 personas esclavizadas. La Revolución Haitiana (1791–1804) fue la única revuelta de esclavizados exitosa de la historia.",
+      "description": "La 'Perla de las Antillas': 40% del azúcar y 60% del café europeos. La Revolución Haitiana (1791–1804) la liberó en la única revuelta de esclavizados exitosa de la historia."
+    },
+    {
+      "id": "b2",
+      "resource": "cotton",
+      "resource_label": "Algodón",
+      "power": "britain",
+      "origin_name": "Gujarat, India",
+      "origin_lat": 21.1,
+      "origin_lon": 72.88,
+      "destination": "Gran Bretaña",
+      "year_start": 1750,
+      "year_end": 1947,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "piezas textiles (1660s-1750s); luego toneladas algodón crudo",
+        "period": "s. XVIII-XX",
+        "note": "Exportaciones de EIC: millones de piezas en s. XVIII; series de producción agrícola en s. XIX escasas"
+      },
+      "confidence": 3,
+      "sources": [
+        "Rönnbäck, K. (2022). Cotton cultivation under colonial rule in India. Economic History Review, 75(1).",
+        "Broadberry, S. & Gupta, B. (1994). The Great Divergence: Comparing comet and industry in 18th century Britain and India. LSE Working Paper.",
+        "Williamson, J.G. India's Deindustrialization in the 18th and 19th Centuries. Conference paper."
+      ],
+      "notes": "El algodón de India alimentó la Revolución Industrial en Manchester, destruyendo deliberadamente la industria textil india para crear dependencia. En 1682, Surat exportaba 1.436.000 piezas; India total >3 millones piezas. S. XIX: inversión en variedades americanas, declive de la producción india, algodonales indianos reemplazados por americanos.",
+      "description": "El algodón de India alimentó la Revolución Industrial en Manchester, destruyendo deliberadamente la industria textil india para crear dependencia."
+    },
+    {
+      "id": "b3",
+      "resource": "opium",
+      "resource_label": "Opio",
+      "power": "britain",
+      "origin_name": "Bengala, India",
+      "origin_lat": 22.5,
+      "origin_lon": 88.3,
+      "destination": "China",
+      "year_start": 1773,
+      "year_end": 1917,
+      "intensity": 2,
+      "quantity": {
+        "value": 6000,
+        "unit": "toneladas",
+        "period": "1830s",
+        "note": "Fábricas de Patna y Ghazipur procesaban 6.000+ t/año hacia 1830s. En 1900: 500.000 acres bajo cultivo de adormidera en Bengala."
+      },
+      "confidence": 4,
+      "sources": [
+        "Chowdhury, B. (1970). Growth of Commercial Agriculture in Bengal. Indian Economic & Social History Review, VII, 26–60, 211–51.",
+        "Deshpande, A. (2009). An Historical Overview of Opium Cultivation and Changing State Attitudes towards the Crop in India, 1878–2000. South Asia: Journal of South Asian Studies, 32(1).",
+        "Richards, J.F. (1999). Opium and the People: Opium Use in Nineteenth-Century India.",
+        "Bauer, H. (2019). Opium production and consumption in colonial and post-colonial India."
+      ],
+      "notes": "East India Company estableció monopolio sobre opio de Bengala (1773). Hacia 1830s las fábricas de Patna y Ghazipur procesaban >6.000 t/año. El opio bengalí financió el comercio con China. Las Guerras del Opio (1839–42, 1856–60) forzaron su aceptación. Un negocio de Estado.",
+      "description": "El opio bengalí financió el comercio con China. Las Guerras del Opio (1839–42, 1856–60) forzaron su aceptación. Un negocio de Estado."
+    },
+    {
+      "id": "b1",
+      "resource": "tea",
+      "resource_label": "Té",
+      "power": "britain",
+      "origin_name": "Assam, India",
+      "origin_lat": 26.7,
+      "origin_lon": 94.7,
+      "destination": "Gran Bretaña",
+      "year_start": 1840,
+      "year_end": 1947,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "s. XIX-XX",
+        "note": "Cifras en valores RICardo (siglo XIX); volúmenes físicos variables"
+      },
+      "confidence": 3,
+      "sources": [
+        "RICardo Database (Dedinger & Girard 2017). ricardo.medialab.sciences-po.fr"
+      ],
+      "notes": "Assam reemplazó a China como fuente principal de té tras las Guerras del Opio. La EIC transformó la región en monocultura de té, destruyendo economías locales indígenas. Datos de valor comercial en RICardo; volúmenes físicos requieren fuentes especializadas en plantaciones de té.",
+      "description": "Assam reemplazó a China como fuente de té. La Compañía de las Indias Orientales transformó Assam en una monocultura de té, reemplazando a China como fuente principal tras las Guerras del Opio."
+    },
+    {
+      "id": "n1",
+      "resource": "spices",
+      "resource_label": "Especias",
+      "power": "netherlands",
+      "origin_name": "Java, Indonesia",
+      "origin_lat": -7.25,
+      "origin_lon": 110.4,
+      "destination": "Países Bajos (reexporto a Europa)",
+      "year_start": 1602,
+      "year_end": 1799,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "s. XVII-XVIII",
+        "note": "Monopolio VOC; volúmenes físicos no cuantificados en bases abiertas. Poblaciones limitadas (~100.000 en regiones productoras de especias)."
+      },
+      "confidence": 2,
+      "sources": [
+        "Gaastra, F.S. VOC East India Company archives (Nationaal Archief, La Haya)",
+        "Femme S. Gaastra. The Dutch East India Company and its sphere of influence.",
+        "World History Encyclopedia. European Discovery & Conquest of the Spice Islands (2021)."
+      ],
+      "notes": "La VOC (1602) fue la primera corporación multinacional de la historia. Dominó el comercio de especias asiáticas (clavo, nuez moscada) por dos siglos mediante monopolio brutal, destrucción de árboles rivales, y matanzas (Banda Islands 1622). Series de producción no disponibles en bases públicas; archivos VOC en Holanda.",
+      "description": "La VOC (1602) fue la primera corporación multinacional de la historia. Dominó el comercio de especias asiáticas (clavo, nuez moscada) por dos siglos con métodos brutales."
+    },
+    {
+      "id": "b8",
+      "resource": "rubber",
+      "resource_label": "Caucho",
+      "power": "britain",
+      "origin_name": "Malasia Británica",
+      "origin_lat": 3.1,
+      "origin_lon": 109.7,
+      "destination": "Gran Bretaña",
+      "year_start": 1877,
+      "year_end": 1957,
+      "intensity": 2,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "1907 onwards",
+        "note": "1907: 1.000 t de plantaciones asiáticas; 1913: asiático superó al brasileño. Incremento exponencial 1910s-1920s."
+      },
+      "confidence": 4,
+      "sources": [
+        "World Finance. Rubber: the muscles and sinews of industrial society (2023).",
+        "Encyclopedia.com. Rubber Industry. Rubber seeds propagated from Brazil at Kew Gardens, 1876.",
+        "EH.net. The International Natural Rubber Market, 1870–1930.",
+        "Lindblad, J.T. (2011). Investment in the Rubber Industry in Malaya, c. 1900–1922. Comparative Studies in Society and History."
+      ],
+      "notes": "Semillas de caucho de Brasil (propagadas en Kew Gardens 1876) plantadas en Ceilán, India y Malaya. Exportaciones de plantaciones: 1.000 t (1907), superó a Brasil silvestre en 1913. Malasia se convirtió en mayor productor mundial. Alimentó directamente la industria automotriz global del s. XX.",
+      "description": "Malasia se convirtió en el mayor productor mundial de caucho, alimentando directamente la industria automotriz global del siglo XX."
+    },
+    {
+      "id": "b7",
+      "resource": "gold",
+      "resource_label": "Oro",
+      "power": "britain",
+      "origin_name": "Witwatersrand, Sudáfrica",
+      "origin_lat": -29.0,
+      "origin_lon": 26.2,
+      "destination": "Gran Bretaña",
+      "year_start": 1870,
+      "year_end": 1910,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "1886 onwards",
+        "note": "Descubrimiento 1886. Gran Bretaña controló ~27% del oro mundial en su apogeo."
+      },
+      "confidence": 3,
+      "sources": [
+        "Historia económica de Sudáfrica (literatura estándar del período)"
+      ],
+      "notes": "El oro descubierto en Witwatersrand en 1886 detonó la Guerra Anglo-Bóer (1899–1902). Gran Bretaña llegó a controlar el 27% del oro mundial. La Guerra fue en parte impulsada por competencia por recursos auríferos.",
+      "description": "El oro descubierto en 1886 detonó la Guerra Anglo-Bóer (1899–1902). Gran Bretaña llegó a controlar el 27% del oro mundial."
+    },
+    {
+      "id": "be1",
+      "resource": "rubber",
+      "resource_label": "Caucho",
+      "power": "belgium",
+      "origin_name": "Estado Libre del Congo",
+      "origin_lat": -4.0,
+      "origin_lon": 21.8,
+      "destination": "Bélgica",
+      "year_start": 1885,
+      "year_end": 1908,
+      "intensity": 3,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "1885-1908",
+        "note": "Volúmenes de caucho extraído no cuantificados en fuentes abiertas"
+      },
+      "confidence": 2,
+      "sources": [
+        "Casement, R. (1904). Casement Report on abuses in Congo Free State. British Foreign Office.",
+        "Hochschild, A. (1998). King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa. Houghton Mifflin.",
+        "Wikipedia. Atrocities in the Congo Free State."
+      ],
+      "notes": "Mortalidad en el Congo: genuinamente disputada. Estimaciones modernas van de 1,2 a 10 millones de personas. Hochschild (1998) estima 10 millones basado en descenso poblacional 1885–1920 (de ~20 millones a ~10 millones en primer censo 1924). Críticos demográficos cuestionan esta cifra como exagerada. Tratamiento publicable obligatorio: RANGO con controversia explícita.",
+      "description": "El Estado Libre del Congo de Leopoldo II fue uno de los crímenes más atroces del colonialismo. Entre 1885 y 1908, el descenso de población se estima entre 1,2 y 10 millones de congoleños por caucho, marfil, y coerción."
+    },
+    {
+      "id": "be2",
+      "resource": "ivory",
+      "resource_label": "Marfil",
+      "power": "belgium",
+      "origin_name": "Estado Libre del Congo",
+      "origin_lat": -4.0,
+      "origin_lon": 21.8,
+      "destination": "Bélgica",
+      "year_start": 1885,
+      "year_end": 1908,
+      "intensity": 2,
+      "quantity": {
+        "value": null,
+        "unit": "toneladas",
+        "period": "1885-1908",
+        "note": "Extraído junto al caucho; volúmenes no documentados"
+      },
+      "confidence": 2,
+      "sources": [
+        "Conrad, J. (1899). Heart of Darkness (novela retratando los horrores).",
+        "Hochschild (1998)"
+      ],
+      "notes": "El marfil junto al caucho fueron las bases del genocidio congoleño. Joseph Conrad retrató estos horrores en 'El corazón de las tinieblas' (1899).",
+      "description": "El marfil junto al caucho fueron las bases del genocidio congoleño. Joseph Conrad retrató estos horrores en 'El corazón de las tinieblas' (1899)."
+    }
+  ],
+  "note_on_gaps": {
+    "tobacco": "Cifras cuantitativas disponibles principalmente para Cuba (19 th century); requiere búsqueda en archivos coloniales españoles.",
+    "fur": "Hudson's Bay Company Archives (Manitoba) contiene registros detallados; no compilados en bases públicas.",
+    "indigo": "Producción india s. XVIII–XIX documentada en literatura colonial británica; series cuantitativas escasas en fuentes abiertas.",
+    "timber": "Palo Brasil (Caesalpinia echinata): extracción deforestó la costa atlántica brasil eña; volúmenes no cuantificados en sistemas modernos.",
+    "minerals": "Oro de Australi a (1851 fiebre) bien documentado; otros minerales menos específicos en período colonial."
+  }
+}
