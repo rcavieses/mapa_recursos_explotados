@@ -29,7 +29,7 @@ Stack: React 18 + Vite + Tailwind v4 + Leaflet.
 - **Diana Peña-Bastalla** — Department of Anthropology, University of California,
   San Diego, USA.
 
-## How to cite
+## Como citar
 
 Cavieses Núñez, R., & Peña-Bastalla, D. (2026). Atlas Colonial: Mapa de recursos
 explotados [Interactive visualization]. Zenodo. https://doi.org/10.5281/zenodo.20737277
@@ -43,5 +43,3 @@ explotados [Interactive visualization]. Zenodo. https://doi.org/10.5281/zenodo.2
   url = {https://github.com/rcavieses/mapa_recursos_explotados}
 }
 ```
-
-## 
