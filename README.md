@@ -21,3 +21,10 @@ npm run preview  # previsualizar el build
 ```
 
 Stack: React 18 + Vite + Tailwind v4 + Leaflet.
+
+## Autores
+
+- **Ricardo Cavieses Núñez** — Dpto. de Ing. en Pesquerías, Universidad Autónoma
+  de Baja California Sur, México. [ORCID 0000-0002-8072-5583](https://orcid.org/0000-0002-8072-5583)
+- **Diana Peña-Bastalla** — Department of Anthropology, University of California,
+  San Diego, USA.

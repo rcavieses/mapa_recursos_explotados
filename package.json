@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "contributors": [
+    "Ricardo Cavieses Núñez <rcavieses@gmail.com> (https://orcid.org/0000-0002-8072-5583)",
+    "Diana Peña-Bastalla (Department of Anthropology, University of California, San Diego)"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
